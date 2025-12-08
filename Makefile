@@ -1,5 +1,5 @@
 XX = g++
-CXXFLAGS = -Wall -Wextra -O2
+CXXFLAGS = -Wall -Wextra -O2 -I./includes
 LIBS = -lglfw -lGL -lX11 -lpthread -lXrandr -lXi -ldl
 BUILDDIR = build
 
