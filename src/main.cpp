@@ -33,7 +33,7 @@ int main() {
         return -1;
     }
 
-    Shader ourShader("shaders/4.1.shader.vs", "shaders/4.1.shader.fs");
+    Shader ourShader("shaders/4.1.shader.vs", "shaders/4.1.a.shader.fs");
 
     float vertices[] = {
         // positions        // colors           // texture coords
