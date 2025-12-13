@@ -117,7 +117,7 @@ int main() {
     // glBindVertexArray(0);
 
     ourShader.use(); 
-    glUniform1i(glGetUniformLocation(ourShader.ID, "texture1"), 0); 
+    ourShader.setInt("texture1", 0);
     ourShader.setInt("texture2", 1);
 
     while(!glfwWindowShouldClose(window)) {
